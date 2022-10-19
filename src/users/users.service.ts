@@ -18,6 +18,6 @@ export class UsersService {
     }
 
     getUsers(){
-        return this.userRepo.find()
+        return this.userRepo.find({relations:['todo']})
     }
 }

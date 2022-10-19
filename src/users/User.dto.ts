@@ -16,4 +16,5 @@ export class UserDTO{
     @IsString()
     @IsNotEmpty()
     username:string
+    
 }
